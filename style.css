@@ -1,0 +1,66 @@
+.bg-container{
+    background-image: url(images/assets.png);
+    height: 70vh;
+}
+
+.zomato-image{
+    width: 20%;
+    
+}
+.text{
+    font-size: 20px;
+    color: white;
+
+}
+
+a{
+    color: white;
+    margin: 20px;
+    padding: 18px;
+    
+}
+
+.text-container{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.search-container{
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: white;
+    width: 52vw;
+    margin-left: 25%;
+    height: 45px;
+    
+}
+.location-container{
+    background-color: white;
+    height: 28px;
+    border-width: 0px;
+}
+
+.input-element{
+    border-width: 0px;
+}
+.container-2{
+    margin-left: 10px;
+    border-left: 1px solid black;
+}
+.search-input-element{
+    width: 30vw;
+}
+.menu-card-container{
+     border-radius: 20px; 
+}
+.menu-card{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   height: 35vh; 
+}
+.localities-heading{
+    font-weight: 400;
+    margin-top: 5%;
+    margin-left: 8%;
+}
