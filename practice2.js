@@ -1,10 +1,7 @@
 let courseName = "JavaScript"; //global variable
-
 function practiceScope() {
-    // Function scope
-    let topic = "Variables";
+    let topic = "Variables";  // Function scope
     console.log(courseName + " - " + topic);
-    
     if (true) {
         // Block scope
         let detail = "Exploring scopes";
@@ -12,5 +9,4 @@ function practiceScope() {
     }
     console.log(detail);  // occurs an error.
 }
-
 practiceScope();
