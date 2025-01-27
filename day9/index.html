@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movies</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="movies"></div>
+    <script>
+        const moviesContainer = document.getElementById("movies");
+
+        moviesContainer.innerHTML =
+            `<h2>${movie1.title}</h2>
+            <p>time:${movie1.time}</p>
+            <p>seats:${movie1.seats}</p>
+
+            <h2>${movie2.title}</h2>
+            <p>time:${movie2.time}</p>
+            <p>seats:${movie2.seats}</p>
+`
+    </script>
+
+</body>
+
+</html>
